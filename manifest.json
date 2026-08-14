@@ -1,11 +1,11 @@
 {
-  "name": "驱动账本",
+  "name": "驾驶账本",
   "short_name": "驾驶账本",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f6f7fb",
   "theme_color": "#f6f7fb",
-  "icons": [{"src":"vehicle-hero.png","type":"image/png"}],
+  "icons": [{"src":"vehicle-icon-candidate.png","type":"image/png"}],
   "share_target": {
     "action": "./index.html",
     "method": "GET",
