@@ -1,0 +1,20 @@
+{
+  "name": "驱动账本",
+  "short_name": "驾驶账本",
+  "id": "./?v=6",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#f6f7fb",
+  "icons": [
+    {"src":"vehicle-icon-candidate.png?v=5","sizes":"1254x1254","type":"image/png","purpose":"any"},
+    {"src":"vehicle-icon-candidate.png?v=5","sizes":"1254x1254","type":"image/png","purpose":"maskable"}
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {"title":"title","text":"text","url":"url"}
+  }
+}
